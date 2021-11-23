@@ -5,49 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-<!-- nav -->
+<!-- nav e profilo -->
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
             <div class="container-sm">
-                <a class="navbar-brand fw-bold" href="#">Navbar</a>
+                <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav fw-bold font-nav">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                    <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link active" href="#">ABOUT</a>
+                    <a class="nav-link active" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link active" href="#">CONTACT</a>
+                    <a class="nav-link active" href="#contact">CONTACT</a>
                     </li>
                 </ul>
                 </div>
             </div>
-            </nav>
-            <div class="container-fluid bg-info">
+        </nav>
+        <div class="container-fluid bg-info pb-4">
+            <div class="container">
                 <div class="row">
-                    <img class="" src="" alt="">
+                    <img class="col-12 avatar mt-3 mt-md-4" src="img/avatar.svg" alt="">
                 </div>
                 <div class="row">
-                    <img class="" src="" alt="">
+                    <div class="col-12 text-center mt-2 fw-bold fs-3">START BOOTSTRAP</div>
+                </div>
+                <div class="row text-center align-items-center justify-content-center">
+                    <div class="col-1 side-star"></div>
+                    <div class="col-1 "> <i class="bi bi-star-fill text-white"></i></div>
+                    <div class="col-1 side-star"></div>
+                </div>
+                <div class="row text-center align-items-center justify-content-center font-header">
+                    <div class="col-8">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                 </div>
             </div>
+        </div>
     </header>
-<!--  -->
+<!-- PORTFOLIO, ABOUT E CONTACT-->
     <main>
-
+        <div class="container-fluid mt-4" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mt-2 fw-bold">PORTFOLIO</div>
+                </div>
+                <div class="row text-center align-items-center justify-content-center mb-3">
+                    <div class="col-1 side-star-port"></div>
+                    <div class="col-1 "> <i class="bi bi-star-fill "></i></div>
+                    <div class="col-1 side-star-port"></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 height"><img src="" alt=""></div>
+                    <div class="col-12 col-sm-6 col-md-4 height"><img src="" alt=""></div>
+                    <div class="col-12 col-sm-6 col-md-4 height"><img src="" alt=""></div>
+                    <div class="col-12 col-sm-6 col-md-4 height"><img src="" alt=""></div>
+                    <div class="col-12 col-sm-6 col-md-4 height"><img src="" alt=""></div>
+                    <div class="col-12 col-sm-6 col-md-4 height"><img src="" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-4 pb-4 pt-4 bg-info text-white" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mt-2 fw-bold">PORTFOLIO</div>
+                </div>
+                <div class="row text-center align-items-center justify-content-center mb-3">
+                    <div class="col-1 side-star"></div>
+                    <div class="col-1 "> <i class="bi bi-star-fill "></i></div>
+                    <div class="col-1 side-star"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-sm-6 height"></div>
+                    <div class="col-8 col-sm-6 height"></div>
+                </div>                
+                <div class="row justify-content-center">
+                    <div class="col-4 text-center">
+                        <button type="button" class="btn btn-outline-dark">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-4" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mt-2 fw-bold">CONTACT ME</div>
+                </div>
+                <div class="row text-center align-items-center justify-content-center mb-3">
+                    <div class="col-1 side-star-port"></div>
+                    <div class="col-1 "> <i class="bi bi-star-fill "></i></div>
+                    <div class="col-1 side-star-port"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-sm-6 height"></div>
+                    <div class="row justify-content-start">
+                        <div class="col-2">
+                            <button type="button" class="btn btn-success">Send</button>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
     </main>
-
+<!-- INFO FOOTER COPYRIGHT -->
     <footer>
-
+        
     </footer>
 <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

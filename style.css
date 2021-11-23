@@ -6,3 +6,29 @@
 .font-nav{
     font-size: 0.6rem;
 }
+.avatar{
+    width: 150px;
+    height: 150px;
+}
+.side-star{
+    max-width: 100%;
+    height: 3px;
+    border-radius:3px;
+    background-color: white;
+}
+.font-header{
+    font-size: 0.7rem;
+    color: white;
+}
+.height{
+    min-height: 100px;
+    background-color: rgb(124, 124, 255);
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+.side-star-port{
+    max-width: 100%;
+    height: 3px;
+    border-radius:3px;
+    background-color: black;
+}
