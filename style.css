@@ -42,3 +42,9 @@
 .ms_border_bottom{
     border-radius: 0px;
 }
+span{
+    font-size: 0.7rem;
+}
+footer .col-12 p{
+    font-size: 0.5rem;
+}
