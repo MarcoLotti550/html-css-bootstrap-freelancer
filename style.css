@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* nav */
 .font-nav{
     font-size: 0.6rem;
 }
@@ -10,28 +11,15 @@
     width: 150px;
     height: 150px;
 }
+.font-header{
+    font-size: 0.7rem;
+}
+/* stella divisoria */
 .side-star{
     max-width: 50%;
     height: 3px;
     border-radius:3px;
     background-color: white;
-}
-.ms_min-width{
-    min-width: 30px;
-    height: 30px;
-}
-.font-header{
-    font-size: 0.7rem;
-    color: white;
-}
-.height{
-    max-width: 100%;
-    height: 200px;
-    margin-bottom: 1rem;
-    border-radius: 0.8rem ;
-}
-.ms_border{
-    border: 5px solid white;
 }
 .side-star-port{
     max-width: 100%;
@@ -39,9 +27,25 @@
     border-radius:3px;
     background-color: black;
 }
+.ms_min-width{
+    min-width: 30px;
+    height: 30px;
+}
+/* immagini main */
+.height{
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 1rem;
+    border-radius: 0.8rem ;
+}
+/* bordi contact me */
+.ms_border{
+    border: 5px solid white;
+}
 .ms_border_bottom{
     border-radius: 0px;
 }
+/* footer */
 span{
     font-size: 0.7rem;
 }
