@@ -8,8 +8,8 @@
     font-size: 0.6rem;
 }
 .avatar{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 .font-header{
     font-size: 0.7rem;
@@ -51,4 +51,13 @@ span{
 }
 footer .col-12 p{
     font-size: 0.5rem;
+}
+
+/* hover icon footer */
+.ms_hover{
+    transition: all 0.5s;
+}
+.ms_hover:hover{
+    background-color: chartreuse;
+    color: chartreuse;
 }
